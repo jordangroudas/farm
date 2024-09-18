@@ -28,7 +28,7 @@ body {
 }
 
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: var(--background-color);
     padding: 1rem;
     text-align: center;
@@ -52,6 +52,17 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: var(--background-color);
+    background-color: var(--secondary-color); 
+    padding: 0.5rem 1rem;
+    border-radius: 5px; 
+
+.contact {
+    text-align: center;
+    padding: 2rem;
+    position: absolute; 
+    bottom: 0;
+    width: 100%;
+    background-color: var(--background-color);
 }
 
 section {

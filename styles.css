@@ -31,14 +31,24 @@ header {
     background-color: var(--primary-color);
     color: var(--background-color);
     padding: 1rem;
-    text-align: center;
+    text-align: left;
 }
 
 header h1 {
     font-family: var(--font-heading);
     font-size: 2.5em;
+    margin-bottom: 0.5rem;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 black,  
+         1px -1px 0 black,
+        -1px  1px 0 black,
+         1px  1px 0 black;
 }
-
+header p {
+    font-size: 1.2em;
+    font-style: italic;
+}
 header nav ul {
     list-style: none;
     padding: 0;
@@ -104,12 +114,15 @@ h3, p {
 
     .product {
         display: flex;
+        flex-direction: column;
         align-items: center;
         margin-bottom: 2rem;
     }
 
     .product img {
         max-width: 50%;
+        height: auto;
+        margin-bottom: 0.5rem
     }
 }
 

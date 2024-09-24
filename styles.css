@@ -136,7 +136,7 @@ h3, p {
         height: auto;
         margin-bottom: 0.5rem
     }
-    product-grid {
+    .product-grid {
         grid-template-columns: repeat(2, 1fr);
 }
 
